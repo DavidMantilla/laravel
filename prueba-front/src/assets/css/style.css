@@ -1,0 +1,302 @@
+body{
+  margin: 0px;
+  
+}
+
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 0px !important;
+}
+
+.bg{
+ 
+  display: flex;
+  background: rgba(13, 104, 194, 0.768);
+  background-image: url("../img/fondor.jpg");
+  background-blend-mode: screen;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.bg .panel{
+  margin-top: 50px;
+height: fit-content;
+padding: 30px;
+border-radius: 20px;
+background-color: rgba(236, 232, 232, 0.9);
+font-weight: bold;
+margin: auto;
+width: 300px;
+
+
+}
+.panel > form{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+.panel > form>input{
+
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #c9c6c6;
+  font-size: 12px;
+  margin: 12px 0px;
+}
+
+.panel > form> label{
+  width: 100%;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #42607d;
+  text-align: left;
+}
+
+
+
+.panel > form> button{
+
+  padding: 10px;
+  font-size: 14px;
+  background: #0d68c2;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-weight: bolder;
+}
+
+button:hover{
+  background: #073a6c;
+}
+
+.error{
+  color: rgb(231, 50, 50);
+  margin: 10px;
+}
+
+
+.sidebar{
+width: 20%;
+height: 100vh;
+background-color: #073a6c;
+color: #fff !important;
+position: fixed;
+}
+
+.cuenta {
+padding-top: 30px;
+  
+}
+.cuenta .lista li{
+
+list-style: none;
+padding: 10px;
+justify-content: left;
+font-size: 14px;
+background-color: #0d68c2;
+margin-top: 20px;
+margin-right: 20px;
+border-radius: 20px;
+}
+
+.cuenta .lista li:hover{
+  background-color: #063e75;
+}
+
+
+.cuenta .lista li a , .cuenta .lista li button { 
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  background: none;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.pagina{
+
+  display: flex;
+  flex-direction: row;
+}
+
+.container{
+ margin-left: 20%;
+width: 80%;
+height: max-content;
+background-color: #b7c5d1;
+
+}
+.container-cuenta{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.buscar-cliente{
+  padding: 20px;
+  margin: 10px;
+  background: #ecedf0;
+  border-radius: 10px;
+  width: 42%;
+  text-align: left;
+  font-size: 14px;
+}
+
+
+.buscar-cliente> input{
+  margin: 10px;
+  height: 30px;
+  background: #c9c6c6;
+  border-radius: 10px;
+  border: none;
+  width: 60%;
+}
+
+.buscar-cliente> button{
+
+  background: #0d68c2;
+  border-radius: 10px;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 30%;
+}
+
+.nueva-cuenta button{
+  background: #0d68c2;
+  border-radius: 10px;
+    border: none;
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.nueva-cuenta{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #c9c6c6;
+  border-radius: 30px;
+  
+}
+
+.nuevo cliente {
+justify-self: left;
+}
+
+
+.nuevo-form> form{
+
+  padding: 10px;
+}
+
+.nuevo-form> form >input{
+
+  height: 30px;
+  width: 90%;
+  font-size: 14px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  border: none;
+  background: #c9c6c6;
+}
+
+.nuevo-form> form >button{
+
+  background: #0d68c2;
+  border-radius: 10px;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 40%;
+}
+
+.cuenta-nueva{
+  padding: 10px;
+}
+
+.cuenta-nueva> .cuenta-input{
+  width: 90%;
+  margin: 5px;
+  height: 30px;
+  border: none;
+  background-color: #cfc6c6;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.cuenta-button{
+
+  background: #0d68c2;
+  border-radius: 10px;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 90%;
+    margin-top: 10px;
+  
+}
+
+.cuenta-button:hover, .nuevo-form> form button:hover, .nueva-cuenta button:hover ,.buscar-cliente button:hover{
+  background-color: #063e75;
+}
+
+
+.cuentas-button{
+
+  background-color: #cfc6c6;
+  width: 150px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 12px;
+ float: left;
+}
+
+
+.cuentas-button:hover{
+
+  background-color: #e6e0e0;
+}
+
+
+.transac{
+
+margin: 20px;
+padding: 10px;
+background-color: #d9e1e8;
+
+
+}
+
+.transacciones {
+  height: 250px;
+  overflow-y: scroll;
+}
